@@ -7,10 +7,10 @@ local: # ignore: just for development
 dev: false
 debug: false
 log_file: logs/debug.log
-model: text-davinci-003 # text-davinci-003
+model: text-davinci-003 # text-davinci-003uggingface
 use_completion: true
-inference_mode: hybrid # local, huggingface or hybrid
-local_deployment: minimal # no, minimal, standard or full
+inference_mode: h # local, huggingface or hybrid
+local_deployment: no # no, minimal, standard or full
 num_candidate_models: 5
 max_description_length: 100
 proxy: 
