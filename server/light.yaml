@@ -1,7 +1,7 @@
 openai:
-  key: your_personal_key # gradio, your_personal_key
+  key: OPENAI # gradio, your_personal_key
 huggingface:
-  cookie: # required for huggingface inference
+  cookie: COOKIE # required for huggingface inference
 local: # ignore: just for development
   endpoint: http://localhost:8003
 dev: false
@@ -10,7 +10,7 @@ log_file: logs/debug.log
 model: text-davinci-003 # text-davinci-003
 use_completion: true
 inference_mode: huggingface # local, huggingface or hybrid
-local_deployment: minimal # no, minimal, standard or full
+local_deployment: no # no, minimal, standard or full
 num_candidate_models: 5
 max_description_length: 100
 proxy: 
