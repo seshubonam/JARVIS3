@@ -1,7 +1,7 @@
 openai:
-  key: OPENAI # gradio, your_personal_key
+  key: ${{ secrets.OPENAI }}  # gradio, your_personal_key
 huggingface:
-  cookie: COOKIE # required for huggingface inference
+  cookie: ${{ secrets.COOKIE }} # required for huggingface inference
 local: # ignore: just for development
   endpoint: http://localhost:8003
 dev: false
